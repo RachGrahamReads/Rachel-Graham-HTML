@@ -127,11 +127,18 @@
           class="header-header header-root-class-name"
         >
           <header data-thq="thq-navbar" class="header-navbar-interactive">
-            <img
-              alt="image"
-              src="public/rachelgrahamhandwritten-500w.png"
-              class="header-header-name-handwritten"
-            />
+            <a
+              href="http://rachgrahamreads.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="header-link"
+            >
+              <img
+                alt="image"
+                src="public/rachelgrahamhandwritten-500w.png"
+                class="header-header-name-handwritten"
+              />
+            </a>
             <div data-thq="thq-navbar-nav" class="header-desktop-menu">
               <nav class="header-links">
                 <a href="index.html" class="header-home"><span>Home</span></a>
@@ -145,7 +152,7 @@
                     href="https://www.instagram.com/rachgrahamreads/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="header-link"
+                    class="header-link1"
                   >
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
@@ -160,7 +167,7 @@
                     href="https://www.facebook.com/profile.php?id=100095104857208"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="header-link1"
+                    class="header-link2"
                   >
                     <svg
                       viewBox="0 0 602.2582857142856 1024"
@@ -175,7 +182,7 @@
                     href="https://twitter.com/RachGrahamReads"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="header-link2"
+                    class="header-link3"
                   >
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -226,13 +233,13 @@
             </div>
           </header>
         </nav>
-        <div id="Home" class="contact-top-container">
-          <div class="contact-title-name-container">
-            <h2 class="contact-check-out-our">I'M STOKED YOU WANT TO</h2>
-            <h1 class="contact-latest-reads">CONTACT ME</h1>
+        <div id="Title" class="contact-top-container">
+          <div class="contact-title-container">
+            <h2 class="contact-intro-title">I'M STOKED YOU WANT TO</h2>
+            <h1 class="contact-title">CONTACT ME</h1>
           </div>
         </div>
-        <div id="Latest-Listing" class="contact-white-banner">
+        <div id="lets-be-friends" class="contact-white-banner">
           <div class="contact-white-banner-container">
             <h1 class="contact-text">LET'S BE FRIENDS!</h1>
             <span class="contact-subheading">I LOVE TO HEAR FROM READERS!</span>
@@ -296,25 +303,95 @@
             </div>
           </div>
         </div>
-        <div id="Subscribe" class="contact-contact">
-          <h1 class="contact-text09">STAY UP TO DATE</h1>
-          <span class="contact-text10">
-            Join my mailing list for updates on new releases and other news
+        <div id="Send-Message" class="contact-message-banner">
+          <h1 class="contact-heading">SEND ME A MESSAGE</h1>
+          <span class="contact-text09">
+            <span>
+              If you'd rather message directly from the website, you can use
+              this form
+            </span>
+            <br />
           </span>
-          <form class="contact-form">
+          <div class="contact-container1">
+            <form
+              name="message"
+              action="https://formsubmit.co/rachgrahamreads@gmail.com"
+              method="POST"
+              enctype="application/x-www-form-urlencoded"
+              id="message-form"
+              class="contact-form"
+            >
+              <input
+                type="text"
+                name="Name"
+                required="true"
+                placeholder="Your name"
+                class="contact-name input"
+              />
+              <input
+                type="text"
+                required="true"
+                placeholder="Email"
+                name="Email"
+                class="contact-email input"
+              />
+              <textarea
+                placeholder="Your message"
+                name="Message"
+                class="contact-textarea textarea"
+              ></textarea>
+              <button
+                type="submit"
+                name="Send-Message-Button"
+                class="contact-button button"
+              >
+                <span>
+                  <span class="contact-text13">Send message</span>
+                  <br />
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div
+          id="Subscribe"
+          class="subscribe-subscribe subscribe-root-class-name2"
+        >
+          <h1 class="subscribe-text"><span>STAY UP TO DATE</span></h1>
+          <span class="subscribe-text1">
+            <span>
+              Join my mailing list for updates on new releases and other news
+            </span>
+          </span>
+          <form
+            name="mailing-list-sign-up"
+            action="https://formsubmit.co/rachgrahamreads@gmail.com"
+            method="POST"
+            enctype="application/x-www-form-urlencoded"
+            id="subscribe-form"
+            class="subscribe-form"
+          >
             <input
               type="text"
-              name="name"
+              name="Name"
+              required="true"
               placeholder="Your name"
-              class="contact-name input"
+              class="subscribe-name input"
             />
             <input
               type="text"
               required="true"
               placeholder="Your email"
-              class="contact-email input"
+              name="Email"
+              class="subscribe-email input"
             />
-            <button class="contact-button button">Subscribe</button>
+            <button
+              type="submit"
+              name="Subscribe-button"
+              class="subscribe-button button"
+            >
+              <span>Subscribe</span>
+            </button>
           </form>
         </div>
         <div id="Footer" class="footer-footer footer-root-class-name1">

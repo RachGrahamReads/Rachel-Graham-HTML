@@ -123,11 +123,18 @@
       <div class="home-container">
         <nav id="Header" data-role="Header" class="header-header">
           <header data-thq="thq-navbar" class="header-navbar-interactive">
-            <img
-              alt="image"
-              src="public/rachelgrahamhandwritten-500w.png"
-              class="header-header-name-handwritten"
-            />
+            <a
+              href="http://rachgrahamreads.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="header-link"
+            >
+              <img
+                alt="image"
+                src="public/rachelgrahamhandwritten-500w.png"
+                class="header-header-name-handwritten"
+              />
+            </a>
             <div data-thq="thq-navbar-nav" class="header-desktop-menu">
               <nav class="header-links">
                 <a href="index.html" class="header-home"><span>Home</span></a>
@@ -141,7 +148,7 @@
                     href="https://www.instagram.com/rachgrahamreads/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="header-link"
+                    class="header-link1"
                   >
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
@@ -156,7 +163,7 @@
                     href="https://www.facebook.com/profile.php?id=100095104857208"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="header-link1"
+                    class="header-link2"
                   >
                     <svg
                       viewBox="0 0 602.2582857142856 1024"
@@ -171,7 +178,7 @@
                     href="https://twitter.com/RachGrahamReads"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="header-link2"
+                    class="header-link3"
                   >
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -228,7 +235,7 @@
             <h2 class="home-young-adult-author">YOUNG ADULT AUTHOR</h2>
           </div>
         </div>
-        <div id="Latest-Listing" class="home-white-banner">
+        <div id="Featured" class="home-main-banner">
           <div class="home-white-banner-container">
             <h1 class="home-text">FOLLOW ME</h1>
             <span class="home-coming-soon">COMING SOON</span>
@@ -256,7 +263,7 @@
             class="home-image"
           />
         </div>
-        <div id="Coming-Soon" class="home-features">
+        <div id="Coming-Soon" class="home-coming-soon1">
           <h1 class="home-text5">COMING SOON</h1>
           <div class="home-container1">
             <div
@@ -330,25 +337,45 @@
             </div>
           </div>
         </div>
-        <div id="Subscribe" class="home-subscribe">
-          <h1 class="home-text6">STAY UP TO DATE</h1>
-          <span class="home-text7">
-            Join my mailing list for updates on new releases and other news
+        <div
+          id="Subscribe"
+          class="subscribe-subscribe subscribe-root-class-name3"
+        >
+          <h1 class="subscribe-text"><span>STAY UP TO DATE</span></h1>
+          <span class="subscribe-text1">
+            <span>
+              Join my mailing list for updates on new releases and other news
+            </span>
           </span>
-          <form class="home-form">
+          <form
+            name="mailing-list-sign-up"
+            action="https://formsubmit.co/rachgrahamreads@gmail.com"
+            method="POST"
+            enctype="application/x-www-form-urlencoded"
+            id="subscribe-form"
+            class="subscribe-form"
+          >
             <input
               type="text"
-              name="name"
+              name="Name"
+              required="true"
               placeholder="Your name"
-              class="home-name input"
+              class="subscribe-name input"
             />
             <input
               type="text"
               required="true"
               placeholder="Your email"
-              class="home-email input"
+              name="Email"
+              class="subscribe-email input"
             />
-            <button class="home-button1 button">Subscribe</button>
+            <button
+              type="submit"
+              name="Subscribe-button"
+              class="subscribe-button button"
+            >
+              <span>Subscribe</span>
+            </button>
           </form>
         </div>
         <div id="Footer" class="footer-footer footer-root-class-name2">

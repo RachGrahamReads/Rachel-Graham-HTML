@@ -99,6 +99,18 @@
   height: auto;
   align-self: stretch;
 }
+.coming-books-root-class-name16 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name17 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name18 {
+  height: auto;
+  align-self: stretch;
+}
 @media(max-width: 1200px) {
   .coming-books-feature-card {
     padding-bottom: var(--dl-space-space-unit);
@@ -140,6 +152,12 @@
     min-height: auto;
   }
   .coming-books-root-class-name14 {
+    min-height: auto;
+  }
+  .coming-books-root-class-name16 {
+    min-height: auto;
+  }
+  .coming-books-root-class-name17 {
     min-height: auto;
   }
 }
