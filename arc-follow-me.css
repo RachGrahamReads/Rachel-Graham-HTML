@@ -672,7 +672,7 @@
   font-weight: 700;
 }
 .arc-follow-me-image {
-  width: auto;
+  width: 20%;
   object-fit: cover;
 }
 @media(max-width: 1600px) {
@@ -695,6 +695,9 @@
   }
   .arc-follow-me-title1 {
     font-size: 300%;
+  }
+  .arc-follow-me-image {
+    width: 30%;
   }
 }
 @media(max-width: 991px) {
@@ -733,8 +736,14 @@
   .arc-follow-me-title1 {
     font-size: 220%;
   }
+  .arc-follow-me-white-banner {
+    flex-direction: column;
+  }
   .arc-follow-me-white-banner-container {
     height: auto;
+  }
+  .arc-follow-me-image {
+    width: 50%;
   }
 }
 @media(max-width: 479px) {
