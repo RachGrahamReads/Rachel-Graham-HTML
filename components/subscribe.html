@@ -118,35 +118,31 @@
           </span>
         </span>
         <form
+          id="subscribe-form"
           name="mailing-list-sign-up"
-          action="https://formsubmit.co/rachgrahamreads@gmail.com"
+          action="https://assets.mailerlite.com/jsonp/796623/forms/116725505353319820/subscribe"
           method="POST"
           enctype="application/x-www-form-urlencoded"
-          id="subscribe-form"
+          required="https://formsubmit.co/rachgrahamreads@gmail.com"
           class="subscribe-form"
         >
           <input
             type="text"
-            name="Name"
+            name="name"
             required="true"
             placeholder="Your name"
             class="subscribe-name input"
           />
           <input
             type="text"
+            name="email"
             required="true"
             placeholder="Your email"
-            name="Email"
             class="subscribe-email input"
           />
-          <input 
-            type="hidden" 
-            name="_url" 
-            value="http://rachgrahamreads.com/contact.html"
-            />
           <button
+            name="ml-submit"
             type="submit"
-            name="Subscribe-button"
             class="subscribe-button button"
           >
             <span>Subscribe</span>

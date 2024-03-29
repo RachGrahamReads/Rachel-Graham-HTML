@@ -207,6 +207,7 @@
 
 
 
+
 @media(max-width: 1600px) {
   .header-header-name-handwritten {
     margin-top: -1em;
@@ -526,6 +527,7 @@
 
 
 
+
 @media(max-width: 1200px) {
   .subscribe-text1 {
     text-align: center;
@@ -648,6 +650,7 @@
   width: 24px;
   height: 24px;
 }
+
 
 
 
@@ -777,7 +780,9 @@
   letter-spacing: 0.2em;
 }
 .books-button {
+  align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
+  text-align: center;
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: 32px;
