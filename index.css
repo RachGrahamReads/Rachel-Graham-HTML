@@ -780,7 +780,9 @@
   letter-spacing: 0.2em;
 }
 .home-button {
+  align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
+  text-align: center;
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: 32px;
