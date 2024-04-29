@@ -790,7 +790,6 @@
   justify-content: space-between;
 }
 .books-button {
-  align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
   text-align: center;
   transition: 0.3s;
@@ -805,7 +804,6 @@
   background-color: var(--dl-color-gray-black);
 }
 .books-button1 {
-  align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
   text-align: center;
   transition: 0.3s;
@@ -820,7 +818,6 @@
   background-color: var(--dl-color-gray-black);
 }
 .books-button2 {
-  align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
   text-align: center;
   transition: 0.3s;
@@ -887,6 +884,10 @@
     font-size: 400%;
     align-self: center;
   }
+  .books-container1 {
+    align-items: center;
+    flex-direction: column;
+  }
   .books-latest-reads {
     color: rgb(255, 255, 255);
     width: 100%;
@@ -920,15 +921,6 @@
     text-align: center;
   }
   .books-subheading {
-    align-self: flex-start;
-  }
-  .books-button {
-    align-self: flex-start;
-  }
-  .books-button1 {
-    align-self: flex-start;
-  }
-  .books-button2 {
     align-self: flex-start;
   }
   .books-image {
@@ -1015,15 +1007,6 @@
     align-self: center;
   }
   .books-subheading {
-    align-self: center;
-  }
-  .books-button {
-    align-self: center;
-  }
-  .books-button1 {
-    align-self: center;
-  }
-  .books-button2 {
     align-self: center;
   }
   .books-image {
