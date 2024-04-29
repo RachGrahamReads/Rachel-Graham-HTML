@@ -782,6 +782,13 @@
   font-size: 150%;
   letter-spacing: 0.2em;
 }
+.books-container1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .books-button {
   align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
@@ -797,13 +804,43 @@
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
+.books-button1 {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-doubleunit);
+  text-align: center;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.books-button1:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.books-button2 {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-doubleunit);
+  text-align: center;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.books-button2:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
 .books-image {
   width: 20%;
   height: auto;
   transform: rotate(1.5deg);
   object-fit: cover;
 }
-.books-container1 {
+.books-container2 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -835,7 +872,7 @@
   margin-bottom: var(--dl-space-space-unit);
   letter-spacing: 0.2em;
 }
-.books-container2 {
+.books-container3 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -888,10 +925,16 @@
   .books-button {
     align-self: flex-start;
   }
+  .books-button1 {
+    align-self: flex-start;
+  }
+  .books-button2 {
+    align-self: flex-start;
+  }
   .books-image {
     width: 30%;
   }
-  .books-container2 {
+  .books-container3 {
     align-items: stretch;
     flex-direction: row;
     grid-template-columns: 1fr 1fr;
@@ -936,7 +979,7 @@
   .books-latest-reads {
     font-size: 220%;
   }
-  .books-container2 {
+  .books-container3 {
     gap: var(--dl-space-space-unit);
     align-self: center;
     align-items: center;
@@ -977,6 +1020,12 @@
   .books-button {
     align-self: center;
   }
+  .books-button1 {
+    align-self: center;
+  }
+  .books-button2 {
+    align-self: center;
+  }
   .books-image {
     width: 40%;
   }
@@ -990,7 +1039,7 @@
     font-size: 220%;
     text-align: center;
   }
-  .books-container2 {
+  .books-container3 {
     grid-gap: var(--dl-space-space-halfunit);
   }
 }
