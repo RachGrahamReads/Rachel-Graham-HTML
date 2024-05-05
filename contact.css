@@ -619,6 +619,9 @@
   text-align: center;
   letter-spacing: 0.2em;
 }
+.contact-link {
+  text-decoration: underline;
+}
 .contact-social-links-container {
   gap: var(--dl-space-space-unit);
   display: flex;
@@ -628,7 +631,7 @@
   flex-direction: row;
   justify-content: space-around;
 }
-.contact-link {
+.contact-link1 {
   display: contents;
 }
 .contact-icon {
@@ -636,7 +639,7 @@
   height: 24px;
   text-decoration: none;
 }
-.contact-link1 {
+.contact-link2 {
   display: contents;
 }
 .contact-icon2 {
@@ -644,7 +647,7 @@
   height: 24px;
   text-decoration: none;
 }
-.contact-link2 {
+.contact-link3 {
   display: contents;
 }
 .contact-icon4 {
@@ -672,7 +675,7 @@
   margin-bottom: var(--dl-space-space-halfunit);
   letter-spacing: 0.2em;
 }
-.contact-text09 {
+.contact-text12 {
   color: rgb(255, 255, 255);
   font-size: 100%;
   align-self: center;
@@ -739,7 +742,7 @@
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.60);
 }
-.contact-text13:hover {
+.contact-text16:hover {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.60);
 }
@@ -763,7 +766,7 @@
   .contact-title {
     font-size: 300%;
   }
-  .contact-text09 {
+  .contact-text12 {
     text-align: center;
   }
   .contact-form {
@@ -858,7 +861,7 @@
     font-size: 220%;
     text-align: center;
   }
-  .contact-text09 {
+  .contact-text12 {
     text-align: center;
   }
   .contact-container1 {
@@ -871,7 +874,7 @@
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
-  .contact-text13 {
+  .contact-text16 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
