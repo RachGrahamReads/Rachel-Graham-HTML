@@ -849,7 +849,7 @@
   font-weight: 700;
   text-decoration: underline;
 }
-.home-link3 {
+.home-link2 {
   text-decoration: underline;
 }
 .home-button1 {
@@ -867,7 +867,7 @@
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
-.home-text38 {
+.home-text37 {
   text-align: center;
 }
 .home-image1 {
@@ -906,7 +906,7 @@
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
-.home-text41 {
+.home-text40 {
   text-align: center;
 }
 .home-container2 {
@@ -936,7 +936,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.home-text45 {
+.home-text44 {
   color: #ffffff;
   font-size: 300%;
   text-align: center;
@@ -1026,7 +1026,7 @@
   .home-launch-comp-banner {
     gap: var(--dl-space-space-tripleunit);
   }
-  .home-text45 {
+  .home-text44 {
     align-self: center;
   }
   .home-container3 {
