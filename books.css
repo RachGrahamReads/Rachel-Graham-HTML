@@ -485,46 +485,12 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-doubleunit);
 }
-.subscribe-form {
+.subscribe-container {
   width: 50%;
-  padding: var(--dl-space-space-halfunit);
-  align-self: center;
-  margin-bottom: var(--dl-space-space-doubleunit);
+  opacity: 100%;
 }
-.subscribe-name {
-  width: 100%;
-  font-size: 0.75rem;
-  margin-top: var(--dl-space-space-halfunit);
-  text-align: center;
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-500);
-  margin-right: 0px;
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.subscribe-email {
-  width: 100%;
-  font-size: 0.75rem;
-  margin-top: var(--dl-space-space-halfunit);
-  text-align: center;
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-500);
-  margin-right: 0px;
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.subscribe-button {
-  color: var(--dl-color-gray-white);
-  width: 100%;
-  font-size: 0.75rem;
-  margin-top: var(--dl-space-space-halfunit);
-  transition: 0.3s;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: var(--dl-space-space-halfunit);
-  background-color: var(--dl-color-gray-black);
-}
-.subscribe-button:hover {
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.60);
+.subscribe-container1 {
+  display: contents;
 }
 
 
@@ -540,7 +506,7 @@
   }
 }
 @media(max-width: 991px) {
-  .subscribe-form {
+  .subscribe-container {
     width: 70%;
   }
 }
@@ -552,7 +518,7 @@
   .subscribe-text {
     font-size: 220%;
   }
-  .subscribe-form {
+  .subscribe-container {
     width: 80%;
   }
 }
@@ -566,12 +532,8 @@
   .subscribe-text1 {
     text-align: center;
   }
-  .subscribe-form {
+  .subscribe-container {
     width: 90%;
-  }
-  .subscribe-button {
-    margin-top: var(--dl-space-space-unit);
-    margin-left: 0px;
   }
 }
 
